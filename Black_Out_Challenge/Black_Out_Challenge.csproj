@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="af8d63a477078732b79ff9d9fc60873f.jpg" />
+    <None Remove="spot-light-background_1284-4685.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="af8d63a477078732b79ff9d9fc60873f.jpg" />
+    <Resource Include="spot-light-background_1284-4685.jpg" />
+  </ItemGroup>
+
+</Project>
